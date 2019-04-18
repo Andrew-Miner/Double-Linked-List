@@ -1,0 +1,28 @@
+Copy Constructor: |||<-0-><-1-><-2-><-3-><-4->|||
+
+Equals Operator: |||<-0-><-1-><-2-><-3-><-4->|||
+Deleted Front: |||<-1-><-2-><-3-><-4->|||
+Deleted Front: |||<-2-><-3-><-4->|||
+Deleted Front: |||<-3-><-4->|||
+Deleted Front: |||<-4->|||
+Deleted Front:
+Deleteing Front When Empty (0 == NULL): 0
+
+Empty InsertAfter@Begin() (edgeCases): |||<-1->|||
+
+List Length: 1
+
+Empty InsertBefore@Begin(): |||<-1->|||
+
+Empty InsertAfter@End(): |||<-1->|||
+
+Empty InsertBefore@End(): |||<-1->|||
+
+Keep in mind list.End() == nullptr
+InsertAfter@End(): |||<-1-><-3->|||
+
+InsertBefore@End(): |||<-1-><-2-><-3->|||
+
+myArrayList += edgeCases: |||<-0-><-1-><-2-><-3-><-4-><-1-><-2-><-3->|||
+
+======================================
